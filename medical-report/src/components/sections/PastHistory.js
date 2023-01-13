@@ -1,5 +1,6 @@
 import React from 'react'
 import Checkbox from "@mui/material/Checkbox"
+import TextField from "@mui/material/TextField";
 
 function PastHistory() {
   return (
@@ -10,44 +11,84 @@ function PastHistory() {
           <div className="flex">
             <Checkbox/>
             <label className="ml-2 mr-20"> DM</label>
-            <input type="text" className="border w-48" />
+            <TextField
+          id="outlined-basic"
+          className="w-40"
+          variant="outlined"
+          size="small"
+        />
           </div>
           <div className="flex">
             <Checkbox/>
             <label className="ml-2 mr-2"> Heart Disease</label>
-            <input type="text" className="border w-48" />
+            <TextField
+          id="outlined-basic"
+          className="w-40"
+          variant="outlined"
+          size="small"
+        />
           </div>
           <div className="flex">
             <Checkbox/>
             <label className="ml-2 mr-16"> COPD</label>
-            <input type="text" className="border w-48" />
+            <TextField
+          id="outlined-basic"
+          className="w-40"
+          variant="outlined"
+          size="small"
+        />
           </div>
           <div className="flex">
             <Checkbox/>
             <label className="ml-2 mr-16"> Liver &nbsp;</label>
-            <input type="text" className="border w-48" />
+            <TextField
+          id="outlined-basic"
+          className="w-40"
+          variant="outlined"
+          size="small"
+        />
           </div>
         </div>
         <div className="space-y-3">
           <div className="flex">
             <Checkbox/>
             <label className="ml-2 mr-8"> HTN</label>
-            <input type="text" className="border w-48" />
+            <TextField
+          id="outlined-basic"
+          className="w-40"
+          variant="outlined"
+          size="small"
+        />
           </div>
           <div className="flex">
             <Checkbox/>
             <label className="ml-2 mr-12"> TB</label>
-            <input type="text" className="border w-48" />
+            <TextField
+          id="outlined-basic"
+          className="w-40"
+          variant="outlined"
+          size="small"
+        />
           </div>
           <div className="flex">
             <Checkbox/>
             <label className="ml-2 mr-2"> Asthama</label>
-            <input type="text" className="border w-48" />
+            <TextField
+          id="outlined-basic"
+          className="w-40"
+          variant="outlined"
+          size="small"
+        />
           </div>
           <div className="flex">
             <Checkbox/>
             <label className="ml-2 mr-8">Other</label>
-            <input type="text" className="border w-48" />
+            <TextField
+          id="outlined-basic"
+          className="w-40"
+          variant="outlined"
+          size="small"
+        />
           </div>
         </div>
       </div>
