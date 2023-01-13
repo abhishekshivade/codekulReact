@@ -17,28 +17,27 @@ function FamilyHistory() {
         </div>
         <div className="flex justify-between m-5">
           <div className="space-x-2">
-            {/* <input type='checkbox'/> */}
             <Checkbox />
             <label>HTN</label>
           </div>
           <div className="space-x-2">
-            <input type='checkbox'/>
+            <Checkbox/>
             <label>DM</label>
           </div>
           <div className="space-x-2">
-            <input type='checkbox'/>
+            <Checkbox/>
             <label>Tuberculosis</label>
           </div>
           <div className="space-x-2">
-            <input type='checkbox'/>
+            <Checkbox/>
             <label>IHD</label>
           </div>
           <div className="space-x-2">
-            <input type='checkbox'/>
+            <Checkbox/>
             <label>Asthama</label>
           </div>
           <div className="space-x-2">
-            <input type='checkbox'/>
+            <Checkbox/>
             <label>Stroke</label>
           </div>
         </div>
